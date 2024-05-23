@@ -5,6 +5,7 @@
   "main": "java.js",
   "scripts": {
     "start": "node java.js",
+    "dev": "nodemon java.js",
     "test": "start"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/juanmeneses0310/proyectoBack#readme",
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }

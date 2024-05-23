@@ -14,4 +14,4 @@ servidor.get("/xxx", (solicitud, respuesta) => {
 });
 
 servidor.listen(3000);
-console.log("servidor corriendo en el puerto 3000");
+console.log("servidor corriendo en el puerto 3000 listo");
