@@ -1,0 +1,23 @@
+{
+  "name": "proyectobackend",
+  "version": "1.0.0",
+  "description": "proyecto a enlazar con front",
+  "main": "java.js",
+  "scripts": {
+    "start": "node java.js",
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanmeneses0310/proyectoBack.git"
+  },
+  "author": "Juan Meneses",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanmeneses0310/proyectoBack/issues"
+  },
+  "homepage": "https://github.com/juanmeneses0310/proyectoBack#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
