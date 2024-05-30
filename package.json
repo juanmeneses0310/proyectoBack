@@ -4,8 +4,8 @@
   "description": "proyecto a enlazar con front",
   "main": "java.js",
   "scripts": {
-    "start": "node java.js",
-    "dev": "nodemon java.js",
+    "start": "node ./src/java.js",
+    "dev": "nodemon ./src/java.js",
     "test": "start"
   },
   "repository": {
@@ -14,14 +14,18 @@
   },
   "author": "Juan Meneses",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/juanmeneses0310/proyectoBack/issues"
   },
   "homepage": "https://github.com/juanmeneses0310/proyectoBack#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0"
   },
   "devDependencies": {
+    "morgan": "^1.10.0",
     "nodemon": "^3.1.0"
   }
 }
